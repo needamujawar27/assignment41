@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import "./components/common.css"
+import {Card,CardContent} from "@mui/material"
+import { Data } from "./components/Assignmentnode9/Data";
+// import { Landing } from "./components/Assignment 6 mongo/Landing";
+// import { Landing } from "./components/Assignment7 mongo/Landing";
+import { Landing } from "./components/Assignment 8 Fullstack/Landing";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+//     ///AssignmentNode///
+// <Card>
+//   <CardContent>
+//     <Data/>
+//   </CardContent>
+// </Card>
+///Assignment Mongo 6///
+/* <Landing/> */
+// /Assignment Mongo 7 //
+/* <Card>
+  <CardContent>
+  <Landing/>
+  </CardContent>
+</Card> */
+<Landing/>
   );
 }
 
